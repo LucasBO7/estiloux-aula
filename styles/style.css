@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@0,200;1,600&display=swap');
+
+/* FONTES DA IMPORTAÇÃO ACIMA
+font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+
 body{
+    font-family: 'Quicksand', sans-serif;
     background-color: bisque;
+}
+
+header{
+    background-color: grey;
+}
+
+header .grid-layout{
+    width: 80%;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+
+header h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header h1 #logoux{
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: italic;
 }
