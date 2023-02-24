@@ -5,6 +5,10 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: 'Quicksand', sans-serif;
@@ -18,12 +22,28 @@ header{
 header .grid-layout{
     width: 80%;
     margin: 0 auto;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
+}
+
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1{
+    text-transform: lowercase;
     color: white;
     font-family: 'Titillium Web', sans-serif;
+    border: 3px solid red;
+}
+
+header nav{
+    display: flex;
+    text-transform: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 2px solid white;
 }
 
 header h1 #logoux{
