@@ -20,10 +20,10 @@ header{
 }
 
 /* Banner (div) with screen's margin */
-header .grid-layout{
+.grid-layout{
     width: 80%;
-    margin: 0 auto;
-    /* background-color: yellowgreen; */
+    margin: 0 auto; /**/
+    background-color: yellowgreen;
 }
 
 /* enable flexbox in the header */
@@ -57,4 +57,10 @@ header h1 #logoux{
     font-weight: 600;
     font-size: 30px;
     font-style: italic;
+}
+
+/* MAIN */
+
+#hundred-width{
+    width: 100%;
 }
