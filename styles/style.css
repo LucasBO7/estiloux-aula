@@ -19,17 +19,20 @@ header{
     background-color: grey;
 }
 
+/* Banner (div) with screen's margin */
 header .grid-layout{
     width: 80%;
     margin: 0 auto;
     /* background-color: yellowgreen; */
 }
 
+/* enable flexbox in the header */
 header .header-flex{
     display: flex;
     justify-content: space-between;
 }
 
+/* H1 fontstyle */
 header h1{
     text-transform: lowercase;
     color: white;
@@ -37,6 +40,7 @@ header h1{
     border: 3px solid red;
 }
 
+/* Header's links */
 header nav{
     display: flex;
     text-transform: row;
@@ -46,6 +50,7 @@ header nav{
     border: 2px solid white;
 }
 
+/* LOGO text */
 header h1 #logoux{
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
