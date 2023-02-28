@@ -107,6 +107,9 @@ main .coluna2 article{
 
 /* FOOTER */
 footer {
-    background-color: red;
+    background-color: #676767;
+    color: white;
     padding: 20px 0q 20px;
+    margin-top: 20px;
+    font-weight: bold;
 }
